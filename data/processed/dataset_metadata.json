@@ -1,0 +1,39 @@
+{
+    "dataset_name": "WHO Life Expectancy Dataset",
+    "target": "Life expectancy ",
+    "target_description": "Life expectancy in years",
+    "rows_after_target_cleaning": 2928,
+    "train_shape": [
+        2342,
+        204
+    ],
+    "test_shape": [
+        586,
+        204
+    ],
+    "numerical_features": [
+        "Year",
+        "Adult Mortality",
+        "infant deaths",
+        "Alcohol",
+        "percentage expenditure",
+        "Hepatitis B",
+        "Measles ",
+        " BMI ",
+        "under-five deaths ",
+        "Polio",
+        "Total expenditure",
+        "Diphtheria ",
+        " HIV/AIDS",
+        "GDP",
+        "Population",
+        " thinness  1-19 years",
+        " thinness 5-9 years",
+        "Income composition of resources",
+        "Schooling"
+    ],
+    "categorical_features": [
+        "Country",
+        "Status"
+    ]
+}
